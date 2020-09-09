@@ -2,7 +2,7 @@ def puzzle(first):
     moves = ['A', 'B', 'L', 'R', 'O']
     above = [0, 1, 2, 3, 4]
     below = [20, 21, 22, 23, 24]
-    left = [0, 5, 1., 15, 20]
+    left = [0, 5, 10, 15, 20]
     right = [4, 9, 14, 19, 24]
     liste = list(first) + list(input()) + list(input()) + list(input()) + list(input())
     instructions = list(input())
